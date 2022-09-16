@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de Cristhian Rosas, desarrollador web frontend">
+    <meta name="author" content="ibarreradev">
+    <meta name="keywords"
+        content="web, developer, desarrollador, frontend, html, css, javascript, git, github, sass, vue, framework, library, jquery, colombia, nariño, pasto">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Cristhian - Desarrollador Web</title>
+    <!-- ? STYLES -->
+    <link rel="stylesheet" href="Styles/styles.css">
+    <!-- ? OTHER IMPORTS -->
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="Scripts/scrollreveal.js"></script>
+    <!-- ? SCRIPTS -->
+    <script defer src="Scripts/index.js"></script>
+    <script defer src="Scripts/form.js"></script>
+</head>
+
+<body>
+    <!-- ? NAVBAR -->
+    <nav id="navbar" class="navbar">
+        <h3 class="navbar__logo">
+            <a href="#">In<span class="color-prim" id="logo"></span>D<span class="color-prim" id="logo2"></span></a>
+        </h3>
+        <!-- Burger Menu Icon -->
+        <div class="navbar__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu-item"><a href="#" class="navbar__menu-item-link active">INICIO</a></li>
+            <li class="navbar__menu-item"><a href="#about" class="navbar__menu-item-link">SOBRE MI</a></li>
+            <li class="navbar__menu-item"><a href="#portfolio" class="navbar__menu-item-link">PORTFOLIO</a></li>
+            <li id="contact" class="btn navbar__menu-item"><span class="navbar__menu-item-link">CONTACTA</span></li>
+        </ul>
+
+    </nav>
+    <!-- ? MAIN -->
+    <main id="main" class="main">
+        <!-- ? HERO -->
+        <section id="hero" class="hero">
+            <article class="hero__card">
+                <h2 class="hero__card-name">Cristhian Rosas</h2>
+                <h1 class="hero__card-position">
+                    <em class="color-prim" id="title"></em>
+                </h1>
+                <div class="hero__card-social">
+                    <a href="https://github.com/ibarreradev" target="_blank" class="hero__card-social-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFD" width="24" height="24">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ibarreradev/" target="_blank" class="hero__card-social-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFD" width="24" height="24">
+                            <circle cx="4.983" cy="5.009" r="2.188" />
+                            <path
+                                d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z" />
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/iBarreraDev" target="_blank" class="hero__card-social-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFD" width="24" height="24">
+                            <path
+                                d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/ibarreradev/" target="_blank" class="hero__card-social-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFD" width="24" height="24">
+                            <path
+                                d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z" />
+                            <circle cx="16.806" cy="7.207" r="1.078" />
+                            <path
+                                d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+        </section>
+        <!-- ? ABOUT -->
+        <section id="about" class="about">
+            <h2 class="about__title reveal">Sobre mi
+                <hr>
+                <hr>
+            </h2>
+            <p class="about__bio reveal">
+                ¡Hola!, me llamo Cristhian y soy Desarrollador Web Frontend.<br>
+                Mi objetivo es ganar experiencia en el área del Desarrollo Web y colaborar a que la empresa para la que
+                trabaje pueda dar un servicio de calidad a sus clientes potenciales o actuales.
+            </p>
+            <section class="about__data">
+                <h3 class="about__data-title reveal">Datos Personales</h3>
+                <div class="about__data-container  reveal">
+                    <div class="about__data-container-item">
+                        <p>Email:</p>
+                        <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1b7874756f7a786f745b72797a69697e697a7f7e6d35787476">[email&#160;protected]</a></p>
+                    </div>
+                    <div class="about__data-container-item">
+                        <p>Fecha de nacimiento:</p>
+                        <p>12 Jun 1999</p>
+                    </div>
+                    <div class="about__data-container-item">
+                        <p>Localización:</p>
+                        <p>Pasto, Colombia</p>
+                    </div>
+                    <div class="about__data-container-item">
+                        <p>Puesto actual:</p>
+                        <p class="text-important">Freelance</p>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="about__skills reveal">
+                <h3 class="about__skills-title">Skills</h3>
+                <ul id="slide" class="about__skills-frame">
+                    <li class="about__skills-frame-item reveal">
+                        <div class="social-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520">
+                                <path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" />
+                                <path fill="#ef652a" d="M226 472l149-41 35-394H226" />
+                                <path fill="#ecedee"
+                                    d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z" />
+                                <path fill="#fff"
+                                    d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z" />
+                            </svg></div>
+                        <p>HTML5</p>
+                    </li>
+                    <li class="about__skills-frame-item reveal">
+                        <div class="social-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520">
+                                <path fill="#0c73b8" d="M41 460L0 0h451l-41 460-185 52" />
+                                <path fill="#30a9dc" d="M226 472l149-41 35-394H226" />
+                                <path fill="#ecedee"
+                                    d="M226 208H94l5 57h127zm0-114H84l5 56h137zm0 261l-124-33 7 60 117 32z" />
+                                <path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 26-288H226v56h80l-6 58h-74z" />
+                            </svg></div>
+                        <p>CSS3</p>
+                    </li>
+                    <li class="about__skills-frame-item reveal">
+                        <div class="social-item"><svg version="1.1" id="svg2" xml:space="preserve"
+                                viewBox="0 0 547.82666 547.82666" sodipodi:docname="Sass Logo - Seal (Color).eps"
+                                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                                xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                                <defs id="defs6" />
+                                <sodipodi:namedview id="namedview4" pagecolor="#ffffff" bordercolor="#666666"
+                                    borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0"
+                                    inkscape:pagecheckerboard="0" />
+                                <g id="g8" inkscape:groupmode="layer" inkscape:label="ink_ext_XXXXXX"
+                                    transform="matrix(1.3333333,0,0,-1.3333333,0,547.82667)">
+                                    <g id="g10" transform="scale(0.1)">
+                                        <path
+                                            d="m 2054.36,4108.71 c 1134.59,0 2054.35,-919.77 2054.35,-2054.36 C 4108.71,919.762 3188.95,0 2054.36,0 919.77,0 0,919.762 0,2054.35 0,3188.94 919.77,4108.71 2054.36,4108.71 v 0"
+                                            style="fill:#cc499c;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                                            id="path12" />
+                                        <path
+                                            d="m 1646.09,1370.04 c 29.89,-110.56 26.61,-213.66 -4.26,-307.03 -3.43,-10.37 -7.21,-20.63 -11.31,-30.77 -4.1,-10.12 -8.54,-20.13 -13.3,-30.01 -23.81,-49.402 -55.76,-95.64 -94.89,-138.32 -119.36,-130.219 -286.13,-179.461 -357.64,-137.969 -77.22,44.758 -38.54,228.36 99.85,374.639 148.88,157.39 363.09,258.58 363.09,258.58 l -0.33,0.64 c 6.17,3.32 12.44,6.74 18.79,10.24 z m 1696.9,1859.38 c -93.03,364.86 -698.01,484.8 -1270.59,281.38 -340.75,-121.05 -709.64,-311.05 -974.88,-559.15 -315.368,-294.98 -365.661,-551.72 -344.93,-659 73.117,-378.54 591.79,-625.97 805.01,-809.55 v -1.11 C 1494.73,1451.04 1034.56,1218.16 926.871,980.078 813.242,728.91 944.957,548.672 1032.16,524.41 c 270.19,-75.172 547.45,60.039 696.45,282.289 143.79,214.481 131.82,491.441 69.33,629.211 86.2,22.74 186.69,32.93 314.4,18.01 360.37,-42.09 431.08,-267.11 417.56,-361.26 -13.51,-94.18 -89.1,-145.961 -114.37,-161.59 -25.28,-15.64 -32.99,-21.05 -30.86,-32.672 3.06,-16.898 14.76,-16.269 36.31,-12.617 29.66,5 189.23,76.598 196.05,250.429 8.69,220.7 -202.81,467.58 -577.3,461.13 -154.23,-2.66 -251.21,-17.33 -321.26,-43.4 -5.18,5.9 -10.45,11.77 -15.9,17.58 -231.52,247.01 -659.51,421.74 -641.36,753.81 6.6,120.72 48.56,438.61 822.39,824.21 633.9,315.86 1141.36,228.94 1229.06,36.3 125.27,-275.21 -271.21,-786.73 -929.52,-860.51 -250.81,-28.12 -382.87,69.09 -415.72,105.29 -34.59,38.11 -39.74,39.83 -52.65,32.68 -21.04,-11.65 -7.71,-45.3 0,-65.36 19.65,-51.15 100.31,-141.86 237.82,-186.98 120.96,-39.7 415.44,-61.51 771.57,76.24 398.85,154.29 710.31,583.47 618.83,942.22"
+                                            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                                            id="path14" />
+                                    </g>
+                                </g>
+                            </svg></div>
+                        <p>SASS</p>
+                    </li>
+                    <li class="about__skills-frame-item reveal">
+                        <div class="social-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 630">
+                                <rect width="630" height="630" fill="#f7df1e" />
+                                <path
+                                    d="m423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z" />
+                            </svg></div>
+                        <p>JAVASCRIPT</p>
+                    </li>
+                    <li class="about__skills-frame-item reveal">
+                        <div class="social-item"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="-11.5 -10.23174 23 20.46348">
+                                <circle cx="0" cy="0" r="2.05" fill="#61dafb" />
+                                <g stroke="#61dafb" stroke-width="1" fill="none">
+                                    <ellipse rx="11" ry="4.2" />
+                                    <ellipse rx="11" ry="4.2" transform="rotate(60)" />
+                                    <ellipse rx="11" ry="4.2" transform="rotate(120)" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <p>REACT</p>
+                    </li>
+                    <li class="about__skills-frame-item reveal">
+                        <div class="social-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 120 120">
+                                <path fill="#f05133"
+                                    d="M111.78,51.977,62.035,2.2381c-2.8622-2.8648-7.5082-2.8648-10.374,0l-10.329,10.33,13.102,13.102c3.0459-1.0284,6.5371-0.33888,8.9639,2.0884,2.4394,2.4424,3.124,5.9634,2.0698,9.0195l12.628,12.628c3.0551-1.0528,6.58-0.37262,9.0195,2.0712,3.4106,3.4096,3.4106,8.9345,0,12.345-3.4111,3.4116-8.936,3.4116-12.349,0-2.5645-2.5665-3.1988-6.3345-1.8999-9.4942l-11.777-11.777-0.001,30.991c0.8315,0.41162,1.6162,0.961,2.3091,1.6509,3.4096,3.4092,3.4096,8.9331,0,12.348-3.4106,3.4091-8.938,3.4091-12.345,0-3.4101-3.4146-3.4101-8.9385,0-12.348,0.84275-0.84125,1.8179-1.478,2.8584-1.9048v-31.279c-1.041-0.425-2.015-1.057-2.859-1.905-2.583-2.581-3.2051-6.372-1.8804-9.5439l-12.916-12.918-34.106,34.105c-2.8657,2.867-2.8657,7.513,0,10.378l49.742,49.739c2.8638,2.8648,7.5082,2.8648,10.376,0l49.512-49.504c2.8648-2.8662,2.8648-7.5136,0-10.379" />
+                            </svg></div>
+                        <p>GIT</p>
+                    </li>
+                </ul>
+
+            </section>
+            <a href="download/CV-IvanBarrera.pdf" download="cv-ibarreradev.pdf" class="text-important about__cv reveal shakeit">
+                <h4>Descarga mi CV&nbsp;
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" style="fill: #ffffff">
+                            <path d="m12 16 4-5h-3V4h-2v7H8z"></path>
+                            <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z"></path>
+                        </svg>
+                    </span>
+                </h4>
+            </a>
+        </section>
+        <!-- ? PORTFOLIO -->
+        <section id="portfolio" class="portfolio">
+            <h2 class="portfolio__title reveal">PORTFOLIO
+                <hr>
+                <hr>
+            </h2>
+            <div class="portfolio__projects">
+                <h2 class="portfolio__projects-text">¡PRONTO!</h2>
+            </div>
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </section>
+        <!-- ? CTA -->
+        <section id="cta" class="cta">
+            <div class="cta__container">
+                <button id="closeCta" class="cta__container-close">x</button>
+                <h3 class="cta__container-title">
+                    ¿Quieres tener una página web <strong>propia</strong> o para tu <strong>negocio</strong>?<br>
+                    Página web <strong>personalizada</strong> de cero, <strong>adaptada</strong> a todos los
+                    dispositivos y con buenas prácticas para <strong>SEO</strong>.<br>Mándame un email y me pondré en
+                    <strong>contacto</strong> contigo ahora mismo.
+                </h3>
+                <form class="cta__form" id="form">
+                    <div class="cta__form-row">
+                        <input type="text" class="cta__form-name" id="form_name" name="name"
+                            autocomplete="off" required>
+                        <label for="form_name" data-placeholder="NOMBRE:" class="cta__form-label"></label>
+                    </div>
+                    <div class="cta__form-row">
+                        <input type="email" class="cta__form-mail" id="form_email" name="email"
+                            autocomplete="off" required>
+                        <label for="form_email" data-placeholder="EMAIL:" class="cta__form-label"></label>
+                    </div>
+
+
+                    <button type="submit"><span class="btn-nosend">SI, QUIERO</span><span
+                            class="btn-send">¡GRACIAS!</span></button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+    <!-- ? FOOTER -->
+    <footer id="footer" class="footer">
+        <h2>Cristhian Rosas &copy; <span id="date"></span></h2>
+    </footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+
+</html>
