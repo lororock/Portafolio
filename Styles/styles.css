@@ -173,9 +173,9 @@
   height: 180px;
   border-radius: 50%;
   border: 10px solid #550cc8;
-  background-image: url(../img/profileimg.webp), linear-gradient(to bottom, #192129, #550cc8);
+  background-image: url(../img/perfil.png), linear-gradient(to bottom, #192129, #550cc8);
   background-size: 130%;
-  background-position: top;
+  background-position: center;
   box-shadow: 0 0 0px 20px rgba(75, 29, 181, 0.188);
 }
 .hero__card-name {
@@ -715,7 +715,7 @@ body {
 }
 
 .color-prim {
-  color: #550cc8;
+  color: #87A2FB;
 }
 
 button:hover {
