@@ -1,5 +1,4 @@
 
-
 const options_prin = {
     delay: 0,
     duration: 500,

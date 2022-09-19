@@ -14,7 +14,10 @@ const $closeCta = document.getElementById("closeCta");
 const $cta = document.getElementById("cta");
 // copyright date
 const $date = document.getElementById("date");
-
+// slider
+const grande = document.querySelector('.grande')
+// point slider
+const punto = document.querySelectorAll('.punto')
 // Typeits
 // subtitulo de la tarjeta del header
 const titleTypeIt = 
@@ -78,3 +81,16 @@ $closeCta.addEventListener("click", () => {
 // date in copyright 
 const year = new Date().getFullYear()
 $date.innerHTML = year
+
+punto.forEach( (cadaPunto, i ) => {
+    punto[i].addEventListener('click',() =>{
+        let posicion = i
+        let operacion = posicion * -50
+        grande.style.transform = `translateX(${ operacion }%)`
+
+        punto.forEach((cadaPunto , i)=>{
+            punto[i].classList.remove('activo')
+        })
+        punto[i].classList.add('activo')
+    })
+})

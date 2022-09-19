@@ -554,7 +554,7 @@
   }
 }
 .portfolio {
-  padding: 4rem;
+  padding: 1rem;
   background-image: linear-gradient(to bottom, rgba(37, 42, 46, 0.9803921569), rgba(37, 42, 46, 0.8666666667));
   min-height: 80vh;
   display: grid;
@@ -774,6 +774,55 @@ button:hover {
   40%, 80% {
     transform: rotateZ(5deg);
   }
+}
+
+.slider{
+  width: 90%;
+  min-width: 10em;
+  max-width: 65em;
+  background-color: #EEEEEE;
+  padding: 1em;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 10px;
+}
+.slider .grande{
+  width: 200%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: all .5s ease;
+  transform: translateX(0%);
+  padding: .4em;
+}
+.slider .img{
+  width: calc(100% / 2 - 1em);
+  min-height: 10vh;
+  border-radius: 10px;
+}
+.slider .puntos{
+  width: 100%;
+  background-color: #6F38C5;
+  margin: 1em 0 0;
+  padding: .4em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.slider .punto{
+  width: 2em;
+  height: 2em;
+  background-color: #EEEEEE;
+  margin: 0 1em 0;
+  list-style:none;
+  border-radius: 50%;
+}
+.slider .punto.activo{
+  background-color: #87A2FB;
 }
 
 /*# sourceMappingURL=styles.css.map */
