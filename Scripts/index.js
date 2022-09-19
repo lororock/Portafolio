@@ -1,8 +1,8 @@
 
 // Asignations
-// Hamburger Menu Icon
+// Menu Icon
 const $navIcon = document.querySelector(".navbar__icon");
-// Hamburger Menu
+// Menu
 const $hambMenu = document.querySelector(".navbar__menu");
 // Menu links
 const $navLink = document.querySelectorAll(".navbar__menu-item-link");
