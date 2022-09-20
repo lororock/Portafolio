@@ -833,7 +833,8 @@ button:hover {
   left: 17%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-width: 300px;
+  max-width: 10%;
+
 }
 .middle_2 {
   transition: .5s ease;
@@ -843,6 +844,7 @@ button:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  max-width: 10%;
 }
 .middle_3{
   transition: .5s ease;
@@ -852,6 +854,8 @@ button:hover {
   left: 83%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  max-width: 10%;
+  
 }
 
 .grande:hover .img {
@@ -869,9 +873,11 @@ button:hover {
 }
 
 .text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
+  background-color: #ADDDD0;
+  color: #6F38C5;
+  font-size: 20px;
   padding: 16px 32px;
+  text-align: center;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
