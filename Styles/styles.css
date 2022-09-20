@@ -825,4 +825,53 @@ button:hover {
   background-color: #87A2FB;
 }
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  max-width: 300px;
+}
+.middle_2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.middle_3{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.grande:hover .img {
+  opacity: 0.3;
+}
+
+.grande:hover .middle {
+  opacity: 1;
+}
+.grande:hover .middle_2 {
+  opacity: 1;
+}
+.grande:hover .middle_3 {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 /*# sourceMappingURL=styles.css.map */
