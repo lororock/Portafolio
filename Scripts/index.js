@@ -85,7 +85,7 @@ $date.innerHTML = year
 punto.forEach( (cadaPunto, i ) => {
     punto[i].addEventListener('click',() =>{
         let posicion = i
-        let operacion = posicion * -50
+        let operacion = posicion * -33
         grande.style.transform = `translateX(${ operacion }%)`
 
         punto.forEach((cadaPunto , i)=>{
