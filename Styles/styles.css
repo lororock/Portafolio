@@ -876,6 +876,7 @@ button:hover {
 }
 
 .text {
+  overflow: hidden;
   background-color: #ADDDD0;
   color: #6F38C5;
   font-size: 20px;
