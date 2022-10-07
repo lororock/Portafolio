@@ -22,7 +22,7 @@ const punto = document.querySelectorAll('.punto')
 // subtitulo de la tarjeta del header
 const titleTypeIt = 
     new TypeIt("#title", {loop: true, speed: 150})
-        .type('Desarrollador Web', {delay: 500})
+        .type('Desarrollador Fullstack', {delay: 500})
         .delete()
         .type('Autodidacta', {delay: 500})
         .delete()
